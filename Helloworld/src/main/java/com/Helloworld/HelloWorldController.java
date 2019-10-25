@@ -1,4 +1,4 @@
-package com.Helloworld.Controller;
+package com.Helloworld;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloWorldController {
     @RequestMapping("/helloWorld")
     @ResponseBody
-    public String HelloWorld(){
+    public String index()
+    {
         return "Hello World :) (:";
     }
-
-
 }

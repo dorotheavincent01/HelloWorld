@@ -1,0 +1,5 @@
+spring:
+  message: Hello World, PROD!
+
+server:
+  port: 8082

@@ -1,0 +1,5 @@
+spring:
+  message: Hello World, TEST!
+
+server:
+  port: 8081
